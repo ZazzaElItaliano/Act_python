@@ -33,6 +33,11 @@ while( acertado):
 Escribe un programa que convierta un rango de temperaturas de Celsius a Fahrenheit
 utilizando un bucle for.(ejercicio de listas)
 """
+celsius= [23.5, 18.2, 30.0, 25.8, 19.1, 27.4, 22.3, 21.0, 26.5, 24.3, 20.0, 29.5]
+farenheit=[]
+for temperatura in celsius:
+    farenheit.append((temperatura*9/5)+32)
+print(farenheit)
 
 
 
@@ -63,10 +68,9 @@ mapeador={
 for x in vocalizar:
     if(x in vocales):
         contador+=1
+        mapeador[x]+=1
 print(f"Tu frase/palabra tiene: {contador} vocal/es")
-for y in vocalizar:
-    if(x in vocales):
-        contador+=1
+print(f"Tu frase/palabra tiene las siguientes vocales {mapeador} ")
 
 
 
