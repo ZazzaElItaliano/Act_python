@@ -67,3 +67,15 @@ while contador < N:
     print(numero_impar)
     numero_impar += 2  
     contador += 1  
+
+"""
+10.Contar dígitos de un número: Dado un número, usa un bucle while para contar cuántos
+dígitos tiene.
+"""
+digito=int(input("Dame un número y te cuento los dígitos"))
+contador=0
+while(digito>0):
+        digito //= 10  
+        contador += 1  
+
+print("El número tiene", contador, "dígitos.")
