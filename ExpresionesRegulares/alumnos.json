@@ -1,0 +1,39 @@
+[
+      {
+        "nombre": "Alejandro Martín",
+        "email": "alejandro.martin@example.com",
+        "codigo_postal": "28001",
+        "telefono": "612345678",
+        "curso": "Matemáticas"
+      },
+      {
+        "nombre": "Lucía Gómez",
+        "email": "lucia.gomez@example.com",
+        "codigo_postal": "28002",
+        "telefono": "623456789",
+        "curso": "Física"
+      },
+      {
+        "nombre": "Carlos Rodríguez",
+        "email": "carlos.rodriguez@example.com",
+        "codigo_postal": "28003",
+        "telefono": "634567890",
+        "curso": "Historia"
+      },
+      {
+        "nombre": "María Pérez",
+        "email": "maria.perez@example.com",
+        "codigo_postal": "28004",
+        "telefono": "645678901",
+        "curso": "Química"
+      },
+      {
+        "nombre": "Juan López",
+        "email": "juan.lopez@example.com",
+        "codigo_postal": "28005",
+        "telefono": "656789012",
+        "curso": "Biología"
+      }
+    
+    ]
+  
